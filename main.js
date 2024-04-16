@@ -1,10 +1,8 @@
 // CLASES ABSTRATAS
-class Animal {
-    constructor(nome, idade) {
-        if (this.constructor === Animal) {
-            throw new Error("Não foi possível instanciar classe abstrata")
-        }
-        this.nome = nome;
-        this.idade = idade;
+class Veiculo {
+    constructor(marca, modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
     }
 }
+    
