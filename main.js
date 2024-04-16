@@ -15,4 +15,9 @@ class Carro extends Veiculo {
         this.ano = ano;
         this.cor = cor;
     }
+    exibirInformacoes() {
+        super.exibirInformacoes();
+        console.log(`Ano: ${this.ano} Cor: ${this.cor}`);
+    }
+}
     
